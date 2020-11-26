@@ -5,7 +5,7 @@
 | QUICK REGEX | ":([A-Za-z]*&#124;[A-Za-z][A-Za-z0-9_]*)" | benchQuickRegex() |
 
 
-##TEST OUTPUT:
+## TEST OUTPUT:
 ```
 Benchmark                                                                    (path)   Mode  Cnt           Score           Error  Units
 BenchmarkRunner.init                                                            N/A  thrpt    5  1497961932.796 ± 296758129.104  ops/s
