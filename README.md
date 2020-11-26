@@ -1,8 +1,8 @@
 | Regex name  | Regex | Benchmark method |
 | ------------- | ------------- |  ------------- | 
-| SHORT REGEX | ":([A-Za-z0-9_]*)" | benchLongRegex() |
-| LONG REGEX | ":([A-Za-z][A-Za-z0-9_]*)" | benchQuickRegex() |
-| QUICK REGEX | ":([A-Za-z]*&#124;[A-Za-z][A-Za-z0-9_]*)" | benchShortRegex() |
+| SHORT REGEX | ":([A-Za-z0-9_]*)" | benchShortRegex() |
+| LONG REGEX | ":([A-Za-z][A-Za-z0-9_]*)" |  benchLongRegex() |
+| QUICK REGEX | ":([A-Za-z]*&#124;[A-Za-z][A-Za-z0-9_]*)" | benchQuickRegex() |
 
 
 ##TEST OUTPUT:
