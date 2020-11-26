@@ -8,7 +8,6 @@
 ## TEST OUTPUT:
 ```
 Benchmark                                                                    (path)   Mode  Cnt           Score           Error  Units
-BenchmarkRunner.init                                                            N/A  thrpt    5  1497961932.796 ± 296758129.104  ops/s
 RegexBenchmarkTests.benchLongRegex                            /some/path/:someToken  thrpt   10     2643128.748 ±    127669.578  ops/s
 RegexBenchmarkTests.benchLongRegex             /some/token/:someTokenWithDigits123/  thrpt   10      872165.339 ±     72098.177  ops/s
 RegexBenchmarkTests.benchLongRegex   /some/path/:someToken/:someTokenWithDigits123/  thrpt   10      628053.929 ±     56073.871  ops/s
